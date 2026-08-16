@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <title>$ajewdas – Modern Jewish Sportswear</title>
+    <meta name="description" content="$ajewdas combines traditional Jewish values with modern sportswear design. Premium quality, timeless style.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://use.typekit.net/[YOUR-KIT-CODE].css" rel="stylesheet"><!-- You'll need to replace [YOUR-KIT-CODE] with actual Adobe Fonts kit code for ITC Avant Garde Gothic -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logo.png" type="image/png">
+    <link rel="apple-touch-icon" href="logo.png">
+  </head>
+  <body>
+    <header class="site-header" role="banner">
+      <div class="container header-inner">
+        <div class="brand">
+          <img class="brand-logo" src="logo.png" alt="$ajewdas logo" width="40" height="40">
+          <span class="brand-name">$ajewdas</span>
+          <span class="brand-tag">Modern Jewish Sportswear</span>
+        </div>
+        <nav class="site-nav" aria-label="Primary">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#connection-quiz">Quiz</a></li>
+            <li>
+              <a class="btn btn-cta with-icon" href="#" data-social-link="true" target="_blank" rel="noopener noreferrer">
+                Follow Us
+                <svg class="x-icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="site-main" role="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <h1 id="hero-title"><span class="accent">$</span>ajewdas — Making Moses Proud</h1>
+            <p class="lead">Because who said you can't deadlift in style? Meshugge gains incoming!</p>
+            <p class="ca-text collection-tag">CA: CTE7r6AvNfbyenTbkQpzcuaW4fateGa1NHXCht3Gpump</p>
+            <div class="hero-ctas">
+              <a class="btn btn-cta with-icon" href="#" data-social-link="true" target="_blank" rel="noopener noreferrer">
+                Join Community
+                <svg class="x-icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+              </a>
+              <a class="btn btn-secondary" href="#products">View Collection</a>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <img src="logo.png" alt="$ajewdas logo" class="hero-logo" width="400" height="400">
+          </div>
+        </div>
+      </section>
+
+      <section class="slogan-band" aria-label="Brand Message">
+        <div class="container">
+          <div class="slogan-inner">
+            <div class="slogan-text">
+              <span class="slogan-accent">LIFT</span>
+              <span class="slogan-regular">WITH</span>
+              <span class="slogan-accent">PURPOSE</span>
+            </div>
+            <p class="slogan-sub">From the Synagogue to the Squat Rack — We've Got Your Back</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="connection-quiz" class="connection-quiz" aria-labelledby="quiz-title">
+        <div class="container quiz-inner">
+          <div class="quiz-intro">
+            <span class="quiz-kicker">Community Warm-up</span>
+            <h2 id="quiz-title">Test Your Jewish Connection</h2>
+            <p>A quick five-question check-in on the traditions, culture, and values that resonate with you.</p>
+          </div>
+          <form class="quiz-form" id="jewish-connection-quiz">
+            <p class="quiz-progress" id="quiz-progress" aria-live="polite">Question 1 of 5</p>
+            <fieldset class="quiz-question" data-step="1">
+              <legend><span>01</span> What does “Shabbat” bring to mind?</legend>
+              <label><input type="radio" name="q1" value="0" required> A weekday meeting</label>
+              <label><input type="radio" name="q1" value="1"> A time to slow down and gather</label>
+              <label><input type="radio" name="q1" value="2"> Rest, ritual, and a Friday-night table</label>
+              <div class="quiz-actions"><button class="btn btn-cta quiz-next" type="button">Continue</button></div>
+            </fieldset>
+            <fieldset class="quiz-question" data-step="2" hidden>
+              <legend><span>02</span> Your ideal community meal has...</legend>
+              <label><input type="radio" name="q2" value="0" required> A strict agenda</label>
+              <label><input type="radio" name="q2" value="1"> Good food and good conversation</label>
+              <label><input type="radio" name="q2" value="2"> Stories, debate, and room for one more chair</label>
+              <div class="quiz-actions"><button class="btn btn-back" type="button">Back</button><button class="btn btn-cta quiz-next" type="button">Continue</button></div>
+            </fieldset>
+            <fieldset class="quiz-question" data-step="3" hidden>
+              <legend><span>03</span> Which value feels most familiar?</legend>
+              <label><input type="radio" name="q3" value="0" required> Going it alone</label>
+              <label><input type="radio" name="q3" value="1"> Showing up for people</label>
+              <label><input type="radio" name="q3" value="2"> Tikkun olam — helping repair the world</label>
+              <div class="quiz-actions"><button class="btn btn-back" type="button">Back</button><button class="btn btn-cta quiz-next" type="button">Continue</button></div>
+            </fieldset>
+            <fieldset class="quiz-question" data-step="4" hidden>
+              <legend><span>04</span> A family story is best when it...</legend>
+              <label><input type="radio" name="q4" value="0" required> Is kept short</label>
+              <label><input type="radio" name="q4" value="1"> Makes everyone laugh</label>
+              <label><input type="radio" name="q4" value="2"> Has been retold at least three times</label>
+              <div class="quiz-actions"><button class="btn btn-back" type="button">Back</button><button class="btn btn-cta quiz-next" type="button">Continue</button></div>
+            </fieldset>
+            <fieldset class="quiz-question" data-step="5" hidden>
+              <legend><span>05</span> Pick the best finishing move.</legend>
+              <label><input type="radio" name="q5" value="0" required> Skip dessert</label>
+              <label><input type="radio" name="q5" value="1"> Share something sweet</label>
+              <label><input type="radio" name="q5" value="2"> One more song, then dessert</label>
+              <div class="quiz-actions"><button class="btn btn-back" type="button">Back</button><button class="btn btn-cta quiz-submit" type="submit">See Your Result</button></div>
+            </fieldset>
+          </form>
+          <div class="quiz-result" id="quiz-result" aria-live="polite" hidden></div>
+          <p class="quiz-note">For fun and reflection only—Jewish identity is personal and can’t be measured by a score.</p>
+        </div>
+      </section>
+
+      <section id="products" class="gallery" aria-labelledby="products-title">
+        <div class="container">
+          <div class="gallery-head">
+            <h2 id="products-title">Signature Collection</h2>
+            <span class="collection-tag">Kosher Certified Drip™ - No Kitniyot, All Gains</span>
+          </div>
+          <div class="grid">
+            <figure class="card">
+              <img src="hoodie.jpg" alt="$ajewdas Premium Hoodie" class="product-img">
+              <figcaption>Heritage Luxe Hoodie • FW25</figcaption>
+            </figure>
+            <figure class="card">
+              <img src="tshirt.jpg" alt="$ajewdas Classic T-Shirt" class="product-img">
+              <figcaption>Modern Classic Tee • FW25</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-band" aria-labelledby="cta-title">
+        <div class="container">
+          <div class="band-inner">
+            <img src="logo.png" alt="$ajewdas Logo" class="cta-logo" width="150" height="150">
+            <h2 id="cta-title">Join Our Community</h2>
+            <p class="muted">Follow us for exclusive releases and community updates.</p>
+            <a class="btn btn-cta with-icon large" href="#" data-social-link="true" target="_blank" rel="noopener noreferrer">
+              Join on Twitter
+              <svg class="x-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> $ajewdas. Modern Jewish Sportswear.</p>
+        <ul class="foot-links" role="list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#" data-social-link="true" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script>
+      // Set current year
+      document.getElementById('year').textContent = new Date().getFullYear();
+      
+      // IMPORTANT: Replace this URL with your actual Twitter/social media link
+      const SOCIAL_LINK = 'https://twitter.com/YOUR_TWITTER_HANDLE';
+      
+      // Update all social links automatically
+      const socialLinks = document.querySelectorAll('[data-social-link]');
+      socialLinks.forEach(link => link.href = SOCIAL_LINK);
+
+      const quiz = document.getElementById('jewish-connection-quiz');
+      const quizResult = document.getElementById('quiz-result');
+      const quizSteps = [...quiz.querySelectorAll('[data-step]')];
+      const quizProgress = document.getElementById('quiz-progress');
+      let activeStep = 0;
+
+      const showStep = (stepIndex) => {
+        activeStep = stepIndex;
+        quizSteps.forEach((step, index) => step.hidden = index !== activeStep);
+        quizProgress.textContent = `Question ${activeStep + 1} of ${quizSteps.length}`;
+        quizSteps[activeStep].querySelector('legend').focus?.();
+      };
+
+      quiz.querySelectorAll('.quiz-next').forEach((button) => {
+        button.addEventListener('click', () => {
+          const selectedAnswer = quizSteps[activeStep].querySelector('input:checked');
+          if (!selectedAnswer) {
+            quizSteps[activeStep].querySelector('input').reportValidity();
+            return;
+          }
+          showStep(activeStep + 1);
+        });
+      });
+
+      quiz.querySelectorAll('.quiz-back').forEach((button) => {
+        button.addEventListener('click', () => showStep(activeStep - 1));
+      });
+
+      quiz.addEventListener('submit', (event) => {
+        event.preventDefault();
+        const score = [...new FormData(quiz).values()].reduce((total, value) => total + Number(value), 0);
+        let title = 'Community Curious';
+        let message = 'You’re here for the stories, the people, and discovering more. There’s always a seat at the table.';
+
+        if (score >= 8) {
+          title = 'Tradition in Motion';
+          message = 'You bring big community energy: rooted in ritual, generous with stories, and ready for one more song.';
+        } else if (score >= 4) {
+          title = 'Culture Connector';
+          message = 'You know that connection grows through food, conversation, and showing up for each other.';
+        }
+
+        quizResult.innerHTML = `<strong>${title}</strong><span>${message}</span>`;
+        quizResult.hidden = false;
+        quizProgress.hidden = true;
+        quizSteps[activeStep].hidden = true;
+        quizResult.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      });
+    </script>
+  </body>
+</html>
